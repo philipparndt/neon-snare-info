@@ -1,0 +1,17 @@
+name: Idea or feature request
+description: Suggest something for Neon Snare
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What would it improve?
+      description: >
+        What does the game feel like today that this would change? Knowing the
+        problem usually matters more than the proposed solution.

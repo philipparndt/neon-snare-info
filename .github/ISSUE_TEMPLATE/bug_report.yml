@@ -1,0 +1,55 @@
+name: Bug report
+description: Something in Neon Snare is not working
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. The device and OS version are the most
+        useful part — most reports come down to a device-specific detail.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can I reproduce it?
+      placeholder: |
+        1. Start an Arena run on Normal
+        2. ...
+        3. It happens
+  - type: dropdown
+    id: device
+    attributes:
+      label: Where did it happen?
+      options:
+        - iPhone
+        - Apple TV
+        - iPhone used as the Apple TV controller
+        - Both
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Device and OS version
+      placeholder: "iPhone 15 Pro, iOS 26.1 — or Apple TV 4K (3rd gen), tvOS 26.2"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Neon Snare version
+      description: In the app, under About.
+      placeholder: "1.0 (60)"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshot or recording
+      description: >
+        Optional, but for anything visual or timing-related a short screen
+        recording says more than a paragraph.
