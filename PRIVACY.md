@@ -11,9 +11,14 @@ iPhone-as-controller feature.
 ## The short version
 
 Neon Snare collects no data about you. There is no analytics, no tracking, no
-advertising, no account, and no third-party SDK of any kind. Nothing you do in
-the game is sent anywhere, because the game has no way to send anything: it
-contains no code that talks to a server.
+advertising, no account, and no third-party SDK of any kind. Nothing about you
+leaves your home, because the game contains no code that talks to a server.
+
+The game talks to exactly one thing, and only if you ask it to: **your Apple
+TV**, when you use the phone as its controller. The two devices find each other
+by name on your own local network and then talk directly, with nothing in
+between. The iPhone never announces a name of its own. It is described in full
+under [The local network permission](#the-local-network-permission).
 
 ## What is stored, and where
 
