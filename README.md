@@ -50,14 +50,17 @@ your Apple TV, and the whole screen becomes a trackpad. Two phones make it two
 players.
 
 This works over your **local network only** — the phone talks to the Apple TV
-directly and nothing leaves your home. See [PRIVACY.md](PRIVACY.md).
+directly and nothing leaves your home. See [PRIVACY.md](PRIVACY.md) and
+[PRIVACY-APPLE-TV.md](PRIVACY-APPLE-TV.md).
 
 ## Privacy
 
 **Neon Snare collects no data. None.** No analytics, no tracking, no ads, no
 accounts, no third-party SDKs. Scores and settings stay on your device.
 
-The full policy is in [PRIVACY.md](PRIVACY.md).
+The full policy is in [PRIVACY.md](PRIVACY.md) for iPhone and iPad, and
+[PRIVACY-APPLE-TV.md](PRIVACY-APPLE-TV.md) for Apple TV. They differ only in
+describing the two ends of the controller feature.
 
 ## Report a bug
 
@@ -68,5 +71,5 @@ device-specific detail, and it saves a round trip.
 
 ## About this repository
 
-This repo is for the issue tracker, the privacy policy and these screens. The
-game's source is not published here.
+This repo is for the issue tracker, the privacy policies and these screens.
+The game's source is not published here.

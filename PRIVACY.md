@@ -1,7 +1,12 @@
 # Privacy Policy
 
-**Neon Snare**
-Last updated: 25 July 2026
+**Neon Snare for iPhone and iPad**
+Last updated: 26 July 2026
+
+The **Apple TV** version is covered by
+[PRIVACY-APPLE-TV.md](PRIVACY-APPLE-TV.md). Both say the same thing about data
+collection — there is none — and differ only in describing the two ends of the
+iPhone-as-controller feature.
 
 ## The short version
 
@@ -36,8 +41,14 @@ each other.
 
 When you use this feature:
 
-- the iPhone looks for Apple TVs running Neon Snare on the network you are
-  already connected to, using Bonjour (service type `_pulse-ctl._udp`)
+- the iPhone looks for Apple TVs running Neon Snare, using Bonjour (service
+  type `_pulse-ctl._udp`). Each Apple TV it finds announces **its own name** —
+  whatever you called it in Settings, such as "Living Room" — and that is what
+  the phone lists for you to pick from. That name is the only identifying thing
+  anywhere in this game, it is one you chose yourself, and it travels no
+  further than your local network.
+- discovery also works over Apple's direct device-to-device Wi-Fi, so the two
+  can find each other even when they are not on the same Wi-Fi network
 - once connected, the phone sends only what a controller sends: where your
   thumb is on the trackpad and which buttons you pressed
 - the Apple TV sends back only what the phone needs to show: which screen is
